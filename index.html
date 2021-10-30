@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="icon" href="https://i.postimg.cc/yxpLzCd7/MS.png" style="border-radius: 50%" type="image/png">
+	<title>
+		Logic Gates
+	</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		.bdy {
+			background: linear-gradient(to right,  #59c173, #a17fe0, #5d26c1);
+		}
+
+		.txtcolor1 {
+			color: rgb(13, 243, 243);
+		}
+
+		.txtcolor2 {
+			color: #6610f2;
+		}
+
+		.nava {
+			background: linear-gradient(to right,  #59c173, #a17fe0, #5d26c1);
+		}
+
+		.black {
+			background:  #92fe9d;
+		}
+	</style>
+</head>
+
+<body class="bdy">
+	<!--navigation-->
+	<nav class="navbar navbar-expand-lg navbar-dark nava">
+		<div class="container-fluid">
+
+			</div>
+
+		</div>
+		</div>
+	</nav>
+
+	<!--calculators -->
+	<div class="container">
+		<div class="container p-2">
+			<h2 class="text-center">Gates</h2>
+			<div class="card bg-dark text-light text-center mx-auto" style="width: 34rem;">
+				<img src="Logic gate.png" id="gate" class="card-img-top" alt="Logic Gates">
+				<!--card-->
+				<div class="card-body">
+					<h5 class="card-title"><span id="tt">Logic Gates</span></h5>
+					<button id="on"
+						class="btn btn-outline-info green text light text-center bold">On</button>
+					<button id="off" class="btn btn-outline-info green text-center bold">Off</button>
+				</div>
+			</div>
+			<!--buttons-->
+			<!--not-->
+			<div class="row gap-2 mx-auto py-1">
+				<br><button id="not" class="btn btn-outline-info black text-center col bold">NOT</button>
+				<!--and-->
+				<button id="and" class="btn btn-outline-info black text-center col bold">AND</button>
+				<!--or-->
+				<button id="or" class="btn btn-outline-info black text-center col bold">OR</button>
+				<!--xor-->
+				<button id="xor" class="btn btn-outline-info black text-center col bold">XOR</button>
+				<!--flipFlop-->
+				<button id="flipFlop" class="btn btn-outline-info black text-center col bold">Flip Flop</button>
+			</div>
+		</div>
+	</div>
+	<!--footers-->
+
+	<script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
