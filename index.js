@@ -87,12 +87,12 @@ function flipFlop(){
     document.getElementById("gate").src="flip flop gate.png";
 
     function on(){
-        document.getElementById("gate").src="flipFlopOn.png";
+        document.getElementById("gate").src="Onflipflop.png";
     }
     ON.addEventListener("click", on);
 
     function off(){
-        document.getElementById("gate").src="flipFlopOff.png";
+        document.getElementById("gate").src="Offflipflop.png";
     }
     OFF.addEventListener("click", off);
 };
